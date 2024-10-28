@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "typeRoots": ["src/@types/index.d.ts"],
+      "checkJs": true,
+      "strictNullChecks": true,
+      "alwaysStrict": true,
+      "paths": {
+        "App": ["./src/@types/app.js"]
+      }
+    }
+  }
+  
