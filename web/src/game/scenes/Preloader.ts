@@ -27,6 +27,7 @@ export class Preloader extends Scene {
         this.load.setPath("assets");
 
         this.load.image("card_001", "card_001.png");
+        this.load.image("card_back", "back.png");
         this.load.image("star", "star.png");
     }
 
